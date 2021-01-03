@@ -1,0 +1,271 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: A plain-vanilla &amp; lightweight theme for Elementor page builder
+Tags: flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 2.3.0.1605277206
+Updated: 2020-11-13 15:20:06
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Volkhov&display=swap');
+
+
+html{
+    overflow-x: hidden;
+}
+
+#navigation > ul > li > a{
+	font-family: 'volkhov', sans-serif;
+}
+
+
+
+body > header.site-header > div, body > main > header > h1{
+	display: none!important;
+}
+
+
+header{
+    margin-left: 0!important;
+    margin-right: 0!important;
+	z-index: 10;
+}
+
+body > header.navbar.navbar-expand-md.navbar-dark > a > img{
+    width: 42px;
+    margin-top: -32px;
+    position: relative;
+    top: 18px;
+}
+
+.h-25 > img{
+	width: 57px!important;
+}
+
+#navigation > ul > li:nth-child(8) > a > img{
+	width: 33px;
+	position: relative;
+    bottom: 7px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+body > div.background > main > div > div.page_counter_label > span{
+    display: none;
+}
+
+div.page_counter_label{text-align: center;}
+
+span.page_counter_text{
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+
+
+
+body > footer.row > a{
+    font-family: 'Volkhov', serif!important;
+}
+
+body > div > div > div.elementor-section-wrap.ui-sortable > div > div.elementor-container.elementor-column-gap-default > div > div > div.elementor-column-wrap.elementor-element-populated > div.elementor-widget-wrap.ui-sortable > div > div.elementor-widget-container > div > div{
+    text-align: center;
+    font-weight: 500;
+}
+
+
+body > div > div > div.elementor-section-wrap.ui-sortable > div > div.elementor-container.elementor-column-gap-default > div > div > div.elementor-column-wrap.elementor-element-populated > div.elementor-widget-wrap.ui-sortable > div > div.elementor-widget-container > div > div > span{
+    font-family: 'Russo One', sans-serif;
+    font-size: 2rem;
+}
+
+#is-search-input-1188, body > div > main > div > div.elementor.elementor-55 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-31635e05.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > div.elementor-element.elementor-element-96dc945.elementor-widget.elementor-widget-shortcode > div > div > form > button > span{
+	background: transparent!important;
+}
+
+/*bouton fil d'actualités*/
+input#submit.submit:hover{
+	background-color: #BF0426;
+}
+/*bouton fil d'actualités*/
+
+/*bouton partager Article*/
+.elementor-widget.elementor-widget-shortcode > div > div > div > div > span > iframe{
+	width: 211px!important
+}
+/*bouton partager Article*/
+
+
+
+#is-search-input-1188::placeholder, #is-search-input-1188{
+	color: white!important
+}
+
+.elementor-widget-shortcode > div > div > h3{
+	color: #496442;
+    font-size: 1rem;
+}
+#wpsm_accordion_1141 .ac_open_cl_icon{
+	padding-bottom: 0!important;
+}
+
+div.bdt-container > div > div > div.bdt-slider-excerpt-content > h3{
+	display: none;
+}
+
+div > div > div.bdt-slider-excerpt-content{
+	margin-top: 0!important;
+}
+
+span > time{
+	padding-left: 120px;
+}
+
+.eael-post-elements-readmore-btn{
+	    padding-top: 14px;
+}
+
+div.eael-entry-wrapper > header > h2 > a, div.eael-entry-footer > div > span > time{
+	
+	font-family: 'Russo One', sans-serif;
+}
+
+div.eael-entry-wrapper > header > h2 > a{
+	font-weight: 400;
+}
+
+.eael-post-elements-readmore-btn{
+	font-family: 'Volkhov', serif;
+}
+
+.elementor-widget-shortcode > div > div > div > div > span > iframe{
+	    width: 179px!important;
+}
+
+
+.comments-area{
+	margin-left: 75px!important;
+    margin-right: 50px;
+}
+
+#commentform > p.logged-in-as > a:nth-child(1){
+	display: none!important;
+}
+
+#commentform > p.logged-in-as > a:nth-child(2){
+	display: none!important;
+}
+
+#commentform > p.logged-in-as{
+	display: none;
+}
+
+.elementor-widget.elementor-widget-button {
+	bottom: 0px!important;
+}
+
+#u_0_3 > button > div > span:before{
+  content:url(img/facebook-logo.png) ;
+  position:relative; 
+  left:-3px;
+  top:10px;
+}
+
+#reply-title{
+	margin-top: 60px;
+}
+
+footer > div.comment-author.vcard > b > a, footer > div.comment-author.vcard > span, h3.title-comments, #reply-title{
+	    font-family: 'Russo One', sans-serif;
+    	font-weight: 500;
+}
+
+div.comment-content > p, div.reply > a, footer > div.comment-metadata > a > time, footer > div.comment-metadata > span > a, #commentform > p.comment-form-comment > label, #comment, #submit{
+	    font-family: 'Volkhov', serif;
+
+}
+body > main > div > div.page_counter_label > span{
+	display: none;
+}
+
+body > footer.row > div.logo.col-12.d-flex.justify-content-center.h-25 > img{
+	width: 100px;
+    margin-bottom: 23px;
+}
+[type=button]:focus, [type=button]:hover, [type=submit]:focus, [type=submit]:hover, button:focus, button:hover{
+	background-color: transparent;
+}
+
+._2n-v ._49vh::before {
+    padding-left: 2px;
+    content: "lol"!important;
+}
+
+/*footer*/
+body > footer.row > a{
+	color: black!important;
+    padding-bottom: 2%;
+z-index: 100;
+}
+
+body > main > div > div.elementor.elementor-9 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-8b15636.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div.elementor-container.elementor-column-gap-default > div > div > div > div > div.elementor-element.elementor-element-7d5358c.elementor-align-right.elementor-fixed.elementor-hidden-phone.elementor-widget.elementor-widget-button > div > div{
+	z-index: 0
+}
+
+/*footer*/
+
+@media only screen and (min-device-width : 200px) and (max-device-width : 480px) {
+/* Styles pour cette Media Queries */
+	#navigation.navbar-collapse.collapse.show{
+		padding-top: 15px!important;
+		background: url(https://doubleboggey2.adrienbouteiller.com/wp-content/uploads/2020/11/menu.png) no-repeat;
+		background-size: cover;
+		background-position: bottom bottom;
+	}
+	div.dropdown-menu.show{
+		background-color: #BF0426;
+	}
+	
+	body > header.navbar.navbar-expand-md.navbar-dark > a > img{
+		display: none;
+	}
+	
+	#navigation > ul > li > a{
+		font-family: 'Russo One', sans-serif!important;
+		font-weight: 500!important;
+		font-size: 1.5rem!important;
+	}
+	
+	#navigation{
+    z-index: 0;
+    padding: 0px;
+    margin: -16px;
+    margin-top: -50px;
+	}
+	
+	body > header.navbar.navbar-expand-md.navbar-dark > button{
+		z-index: 100;
+		position: relative;
+    	right: 81%;
+}
+	
+	
+	#navigation > ul > li:nth-child(1) > a{
+		margin-top: 64px;
+	}
+	
+	#navigation > ul > li{
+		margin-left: 27px;
+    	
+	}
+
+body > footer.row > div.logo.col-12.d-flex.justify-content-center.h-25 > img{
+	width: 23%!important;
+}}
+
